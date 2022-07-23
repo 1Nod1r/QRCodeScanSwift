@@ -16,10 +16,12 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupVideo()
+        // test
     }
 
     func setupVideo(){
         // 1. Nastroit session
+//        let session = AVCaptureSession()
         // 2. Nastraivaem ustroystvo video
         let captureDevice = AVCaptureDevice.default(for: AVMediaType.video)
         // 3. Nastroim input
@@ -38,7 +40,7 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         video = AVCaptureVideoPreviewLayer(session: session)
         video.frame = view.layer.bounds
     }
-    
+    //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
     
     func startRunning(){
         view.layer.addSublayer(video)
