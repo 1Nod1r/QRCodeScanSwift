@@ -17,6 +17,7 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         super.viewDidLoad()
         setupVideo()
         // test
+        // Test 2 
     }
 
     func setupVideo(){
